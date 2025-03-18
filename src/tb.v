@@ -35,4 +35,12 @@ initial begin
     $dumpvars(0, riscv_tb);
 end
 
+integer i;
+initial begin
+    for (i = 0; i < 32; i = i + 1) begin
+        $dumpvars(0, riscv_tb.UUT.REGFILE.registers[i]);
+    end
+end
+
+
 endmodule
