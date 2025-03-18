@@ -1,0 +1,33 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11 (64-bit)"
+//Mon Mar 17 19:48:52 2025
+
+//Source file index table:
+//file0 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/ALU.v"
+//file1 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/Control_Unit.v"
+//file2 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/DataMemory.v"
+//file3 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/InstructionMemory.v"
+//file4 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/ProgramCounter.v"
+//file5 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/RegisterFile.v"
+//file6 "\C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v"
+`timescale 100 ps/100 ps
+module riscv_top (
+  clk,
+  reset
+)
+;
+input clk;
+input reset;
+wire VCC;
+wire GND;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* riscv_top */

@@ -1,0 +1,60 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+  "InstLine" : 1,
+  "InstName" : "riscv_top",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "riscv_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+    "InstLine" : 19,
+    "InstName" : "PC",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/ProgramCounter.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "program_counter"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+    "InstLine" : 27,
+    "InstName" : "IMEM",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/InstructionMemory.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "instruction_memory"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+    "InstLine" : 33,
+    "InstName" : "CU",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/Control_Unit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "control_unit"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+    "InstLine" : 46,
+    "InstName" : "REGFILE",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/RegisterFile.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "RegisterFile"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+    "InstLine" : 63,
+    "InstName" : "ALU",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/ALU.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ALU"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/riscv_top.v",
+    "InstLine" : 73,
+    "InstName" : "DMEM",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/RiscVduino/src/DataMemory.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "data_memory"
+   }
+  ]
+ }
+]
