@@ -32,15 +32,18 @@ instruction_memory IMEM(
 // Control Unit
 control_unit CU(
     .opcode(instruction[6:0]),
-    .RegWrite(RegWrite),
+    .funct3(instruction[14:12]),
+    .funct7_bit(instruction[30]),
     .ALUSrc(ALUSrc),
+    .MemtoReg(MemtoReg),
+    .RegWrite(RegWrite),
     .MemRead(MemRead),
     .MemWrite(MemWrite),
-    .MemtoReg(MemtoReg),
     .Branch(Branch),
     .Jump(Jump),
-    .ALUOp(ALUOp)
+    .ALUControl(ALUOp)
 );
+
 
 // Register File
 RegisterFile REGFILE(
